@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="stone">54dp</dimen>
+    <dimen name="stonepadding">5dp</dimen>
+    <dimen name="wagonpadding">25dp</dimen>
+    <dimen name="stonesmall">54dp</dimen>
+    <dimen name="stonepaddingsmall">5dp</dimen>
+    <dimen name="wagonpaddingsmall">25dp</dimen>
+    <dimen name="stonelarge">96dp</dimen>
+    <dimen name="stonepaddinglarge">10dp</dimen>
+    <dimen name="wagonpaddinglarge">50dp</dimen>
+    <dimen name="stonexlarge">112dp</dimen>
+    <dimen name="stonepaddingxlarge">15dp</dimen>
+    <dimen name="wagonpaddingxlarge">25dp</dimen>
+</resources>

@@ -1,0 +1,470 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/background3">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wagon"
+        android:src="@drawable/redwagon2"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/top_container"
+        android:layout_alignRight="@+id/bottom_container"
+        android:layout_alignEnd="@+id/bottom_container" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/top_container"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/wagonpadding"
+        android:layout_above="@id/bottom_container"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/ct1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone0"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="stone1"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone5"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t10" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone10"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/ct2">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t1" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone1"
+                    android:src="@drawable/stone6"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:padding="@dimen/stonepadding" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t6" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone6"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="stone1"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t11" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone11"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:focusableInTouchMode="false" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/ct3">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t2" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone2"
+                    android:src="@drawable/stone6"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:padding="@dimen/stonepadding" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t7" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone7"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="stone1"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t12" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone12"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/ct4">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t3" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone3"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_below="@+id/top_container"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t8" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone8"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="stone1"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t13" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone13"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/ct5" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t4" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone4"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="stone1" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t9" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone9"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/t14" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone14"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:padding="@dimen/wagonpadding"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/c1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b0"></FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b5"></FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/c2">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b6" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/c3">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b2" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b7" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/c4">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b3" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b8" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/stone"
+            android:layout_height="match_parent"
+            android:id="@+id/c5" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b4" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b9" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/stone"
+                android:id="@+id/b14" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
