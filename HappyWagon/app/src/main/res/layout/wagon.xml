@@ -40,18 +40,6 @@
                 android:layout_height="@dimen/stone"
                 android:id="@+id/t0">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/stone0"
-                    android:src="@drawable/stone6"
-                    android:layout_row="0"
-                    android:layout_column="0"
-                    android:padding="@dimen/stonepadding"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:tag="stone1"/>
             </FrameLayout>
 
             <FrameLayout
@@ -59,16 +47,6 @@
                 android:layout_height="@dimen/stone"
                 android:id="@+id/t5">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/stone5"
-                    android:src="@drawable/stone6"
-                    android:layout_row="0"
-                    android:layout_column="2"
-                    android:padding="@dimen/stonepadding"
-                    android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
             </FrameLayout>
 
             <FrameLayout
@@ -76,16 +54,6 @@
                 android:layout_height="@dimen/stone"
                 android:id="@+id/t10" >
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/stone10"
-                    android:src="@drawable/stone6"
-                    android:layout_row="0"
-                    android:layout_column="2"
-                    android:padding="@dimen/stonepadding"
-                    android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
             </FrameLayout>
 
         </LinearLayout>
@@ -291,18 +259,6 @@
                 android:layout_height="@dimen/stone"
                 android:id="@+id/t4" >
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/stone4"
-                    android:src="@drawable/stone6"
-                    android:layout_row="0"
-                    android:layout_column="0"
-                    android:padding="@dimen/stonepadding"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:tag="stone1" />
             </FrameLayout>
 
             <FrameLayout
@@ -310,16 +266,6 @@
                 android:layout_height="@dimen/stone"
                 android:id="@+id/t9" >
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/stone9"
-                    android:src="@drawable/stone6"
-                    android:layout_row="0"
-                    android:layout_column="2"
-                    android:padding="@dimen/stonepadding"
-                    android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
             </FrameLayout>
 
             <FrameLayout
@@ -327,16 +273,6 @@
                 android:layout_height="@dimen/stone"
                 android:id="@+id/t14" >
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/stone14"
-                    android:src="@drawable/stone6"
-                    android:layout_row="0"
-                    android:layout_column="2"
-                    android:padding="@dimen/stonepadding"
-                    android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
             </FrameLayout>
         </LinearLayout>
 
@@ -363,17 +299,58 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/stone"
-                android:id="@+id/b0"></FrameLayout>
+                android:id="@+id/b0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone0"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="stone1"
+                    android:layout_gravity="center" />
+            </FrameLayout>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/stone"
-                android:id="@+id/b5"></FrameLayout>
+                android:id="@+id/b5">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone5"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center" />
+            </FrameLayout>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/stone"
-                android:id="@+id/b10" />
+                android:id="@+id/b10" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone10"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center" />
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -451,17 +428,58 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/stone"
-                android:id="@+id/b4" />
+                android:id="@+id/b4" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone4"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:tag="stone1"
+                    android:layout_gravity="center" />
+            </FrameLayout>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/stone"
-                android:id="@+id/b9" />
+                android:id="@+id/b9" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone9"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center" />
+            </FrameLayout>
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/stone"
-                android:id="@+id/b14" />
+                android:id="@+id/b14" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stone14"
+                    android:src="@drawable/stone6"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:padding="@dimen/stonepadding"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center" />
+            </FrameLayout>
         </LinearLayout>
 
     </LinearLayout>

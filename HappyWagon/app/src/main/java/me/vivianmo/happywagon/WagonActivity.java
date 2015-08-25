@@ -153,36 +153,36 @@ public class WagonActivity extends Activity {
     private void initializeStones() {
         if (dbHandler.isEmpty()) {
             Log.d("V", "filling up table");
-            FrameLayout t0 = (FrameLayout) findViewById(R.id.t0);
+            FrameLayout b0 = (FrameLayout) findViewById(R.id.b0);
             FrameLayout t1 = (FrameLayout) findViewById(R.id.t1);
             FrameLayout t2 = (FrameLayout) findViewById(R.id.t2);
             FrameLayout t3 = (FrameLayout) findViewById(R.id.t3);
-            FrameLayout t4 = (FrameLayout) findViewById(R.id.t4);
-            FrameLayout t5 = (FrameLayout) findViewById(R.id.t5);
+            FrameLayout b4 = (FrameLayout) findViewById(R.id.b4);
+            FrameLayout b5 = (FrameLayout) findViewById(R.id.b5);
             FrameLayout t6 = (FrameLayout) findViewById(R.id.t6);
             FrameLayout t7 = (FrameLayout) findViewById(R.id.t7);
             FrameLayout t8 = (FrameLayout) findViewById(R.id.t8);
-            FrameLayout t9 = (FrameLayout) findViewById(R.id.t9);
-            FrameLayout t10 = (FrameLayout) findViewById(R.id.t10);
+            FrameLayout b9 = (FrameLayout) findViewById(R.id.b9);
+            FrameLayout b10 = (FrameLayout) findViewById(R.id.b10);
             FrameLayout t11 = (FrameLayout) findViewById(R.id.t11);
             FrameLayout t12 = (FrameLayout) findViewById(R.id.t12);
             FrameLayout t13 = (FrameLayout) findViewById(R.id.t13);
-            FrameLayout t14 = (FrameLayout) findViewById(R.id.t14);
-            dbHandler.addStone("" + t0.getId());
+            FrameLayout b14 = (FrameLayout) findViewById(R.id.b14);
+            dbHandler.addStone("" + b0.getId());
             dbHandler.addStone("" + t1.getId());
             dbHandler.addStone("" + t2.getId());
             dbHandler.addStone("" + t3.getId());
-            dbHandler.addStone("" + t4.getId());
-            dbHandler.addStone("" + t5.getId());
+            dbHandler.addStone("" + b4.getId());
+            dbHandler.addStone("" + b5.getId());
             dbHandler.addStone("" + t6.getId());
             dbHandler.addStone("" + t7.getId());
             dbHandler.addStone("" + t8.getId());
-            dbHandler.addStone("" + t9.getId());
-            dbHandler.addStone("" + t10.getId());
+            dbHandler.addStone("" + b9.getId());
+            dbHandler.addStone("" + b10.getId());
             dbHandler.addStone("" + t11.getId());
             dbHandler.addStone("" + t12.getId());
             dbHandler.addStone("" + t13.getId());
-            dbHandler.addStone("" + t14.getId());
+            dbHandler.addStone("" + b14.getId());
         }
 
         for (int i = 1; i <= numofstones; i++) {
@@ -220,6 +220,7 @@ public class WagonActivity extends Activity {
         }
         return true;
     }
+    //
 
     dragTouchListener shortListen = new dragTouchListener();
 
